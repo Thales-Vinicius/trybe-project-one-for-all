@@ -1,6 +1,6 @@
 SELECT
-	s.name, 
-    COUNT(r.song_id) AS reproducoes
+	s.name AS cancao, 
+  COUNT(r.song_id) AS reproducoes
 FROM
 	Song AS s
 		INNER JOIN
